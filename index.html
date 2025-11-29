@@ -4,246 +4,224 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>Point.Creditcard – Point Values, Transfers & Redemption Strategies</title>
-  <meta name="description" content="Point.creditcard explains how credit-card points work: valuations, transfer partners, redemption options and how to avoid low-value redemptions." />
+  <title>Point.Creditcard – How Credit-Card Points Actually Work</title>
+  <meta name="description" content="Understand how credit-card points work: how they’re earned, how much they’re worth, transfer partners, sweet spots and common pitfalls in points programs." />
   <meta name="robots" content="index,follow" />
   <link rel="canonical" href="https://point.creditcard/" />
 
-  <!-- OG -->
+  <!-- Open Graph -->
   <meta property="og:title" content="Point.Creditcard – Credit-Card Points Explained" />
-  <meta property="og:description" content="Understand point systems, transfer partners and how to calculate real redemption value." />
+  <meta property="og:description" content="Learn how card points are earned, valued and redeemed – including transfer partners, devaluations and how to estimate real cents-per-point value." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://point.creditcard/" />
   <meta property="og:image" content="https://choose.creditcard/preview.png?utm_source=point.creditcard&utm_medium=referral&utm_campaign=og_image" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Point.Creditcard – Maximize Your Points" />
-  <meta name="twitter:description" content="Clear, unbiased guide to credit-card point systems, valuations and transfer programs." />
+  <meta name="twitter:title" content="Point.Creditcard – Credit-Card Points Explained" />
+  <meta name="twitter:description" content="Independent overview of credit-card point systems: earn rates, transfer partners, redemptions and how to avoid low-value uses of your points." />
   <meta name="twitter:image" content="https://choose.creditcard/preview.png?utm_source=point.creditcard&utm_medium=referral&utm_campaign=twitter_image" />
 
   <!-- GA4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-64FE63JQ3H"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){ dataLayer.push(arguments); }
+    function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-64FE63JQ3H');
   </script>
 
+  <!-- Tailwind for utility classes -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Your shared minisite styles -->
   <link rel="stylesheet" href="./styles.css" />
 </head>
-
 <body class="bg-slate-950 text-slate-100">
-
-<header class="site-header">
-  <div class="nav-inner max-w-6xl">
-
-    <div class="brand">
-      <div class="cc-logo">CC</div>
-      <div class="brand-text">
-        <div class="brand-title">Point.Creditcard</div>
-        <div class="brand-subtitle">Point Value & Redemption</div>
+  <header class="site-header">
+    <div class="nav-inner max-w-6xl">
+      <div class="brand">
+        <div class="cc-logo">CC</div>
+        <div class="brand-text">
+          <div class="brand-title">Point.Creditcard</div>
+          <div class="brand-subtitle">Credit-Card Points Explained</div>
+        </div>
       </div>
+      <nav class="nav-links" aria-label="Page navigation">
+        <a href="#overview">Overview</a>
+        <a href="#mechanics">How It Works</a>
+        <a href="#compare">Compare</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="cc-page">
+    <!-- Breadcrumb -->
+    <div class="cc-breadcrumb">
+      <a href="https://choose.creditcard/?utm_source=point.creditcard&utm_medium=referral&utm_campaign=breadcrumb">Home</a>
+      &nbsp;›&nbsp;
+      Point.Creditcard
     </div>
 
-    <nav class="nav-links">
-      <a href="#valuation">Values</a>
-      <a href="#partners">Partners</a>
-      <a href="#compare">Compare</a>
-    </nav>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>How Credit-Card Points Turn Spending into Travel and Cash</h1>
+        <p class="hero-lead">
+          Cards advertise “points on every purchase”, but point values vary wildly. This page breaks down how points are created, what they’re really worth in cash or travel, and how to avoid low-value redemptions that dilute your efforts.
+        </p>
+        <a class="cta" href="https://choose.creditcard/?utm_source=point.creditcard&utm_medium=referral&utm_campaign=hero_cta">
+          Compare points-based rewards cards
+        </a>
+      </div>
+    </section>
 
-  </div>
-</header>
+    <!-- Content sections -->
+    <section id="overview" class="section">
+      <h2>What Are Credit-Card Points?</h2>
+      <p>Credit-card points are a rewards currency issued by banks or card networks. You earn them when you spend on the card, and later redeem them for travel, statement credits, gift cards or transfers to airline and hotel programs.</p>
+      <p>Unlike fixed cash-back, points do not have a single guaranteed value. The same balance can be worth very little in one redemption channel and significantly more in another, which is why understanding the program’s options matters more than the headline earn rate alone.</p>
+    </section>
 
-<main class="cc-page">
+    <section id="mechanics" class="section">
+      <h2>How Points Are Created and Added to Your Account</h2>
+      <p>Every time a transaction posts, the issuer classifies the merchant and applies the card’s earn rules. General purchases might earn a base rate, while categories such as travel, dining or groceries earn bonus points.</p>
+      <p>Points are tracked in a rewards ledger separate from your credit balance. Some issuers credit them immediately; others batch them and add them on your statement date. Promotional earn, such as welcome bonuses or limited-time multipliers, is usually layered on top and posted once conditions are met.</p>
+    </section>
 
-  <!-- Breadcrumb -->
-  <div class="cc-breadcrumb">
-    <a href="https://choose.creditcard/?utm_source=point.creditcard&utm_medium=referral&utm_campaign=breadcrumb">Home</a>
-    &nbsp;›&nbsp;
-    Point Value
-  </div>
+    <section class="section">
+      <h2>Point Values, Sweet Spots and Poor Redemptions</h2>
+      <p>Point programs often quote a “from X cents per point” value, but real outcomes vary. Using points for gift cards or low-end merchandise can yield a weaker rate, while transferring to travel partners and booking premium cabins can sometimes generate higher value per point.</p>
+      <p>To compare cards, many people estimate an average value per point based on the redemptions they realistically use. The card with a slightly lower earn rate can still be stronger if its points consistently redeem at a higher and more reliable value.</p>
+    </section>
 
-  <!-- Hero -->
-  <section class="hero">
-    <h1>How Much Are Credit-Card Points Really Worth?</h1>
-    <p class="hero-lead">
-      Point.Creditcard breaks down valuations, transfer partners, devaluations, redemption options and why the same points can be worth 0.5¢ or 2.5¢ depending on how you redeem them.
-    </p>
+    <section class="section">
+      <h2>Transfer Partners and Ecosystem Flexibility</h2>
+      <p>Some point systems are “closed”, meaning you redeem only through the card issuer’s own portal or catalog. Others are “open”, letting you move points into multiple airline and hotel programs at defined transfer ratios.</p>
+      <p>Having strong transfer partners adds flexibility: if one program devalues its chart, you can redirect future points to a different partner. This ability to pivot between ecosystems is a key reason many advanced users prefer flexible bank points over single-airline mileage programs.</p>
+    </section>
 
-    <a class="cta" href="https://choose.creditcard/?utm_source=point.creditcard&utm_medium=referral&utm_campaign=hero_cta">
-      Compare point-earning credit cards
-    </a>
-  </section>
+    <section class="section">
+      <h2>Expiry, Devaluations and Program Risk</h2>
+      <p>Point balances can lose value in two ways: individual points may expire if an account is inactive, and programs may reduce the value of points over time by changing prices or rules. Both factors erode the benefit of holding large unused balances.</p>
+      <p>Watching for expiry rules, tracking program announcements and redeeming periodically can reduce the impact of devaluations. Treat points as a rebate tool, not a long-term investment—earning and using them steadily often beats hoarding for a distant “someday”.</p>
+    </section>
 
-  <!-- Sections -->
-  <section id="valuation" class="section">
-    <h2>Point Valuation Basics</h2>
-    <p>Point value is not fixed. It depends entirely on <em>how</em> you redeem:</p>
+    <!-- Comparison block -->
+    <section id="compare" class="section">
+      <h2>Compare Point Programs Side by Side</h2>
+      <div class="table-wrap">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Factor</th>
+              <th>What to Look For</th>
+              <th>Why It Matters</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Earn Structure</td>
+              <td>Base and bonus rates aligned with your spending</td>
+              <td>Determines how quickly you accumulate a useful balance.</td>
+            </tr>
+            <tr>
+              <td>Redemption Options</td>
+              <td>Cash, travel portal, transfers, gift cards</td>
+              <td>Shapes the range of ways you can extract value from points.</td>
+            </tr>
+            <tr>
+              <td>Average Point Value</td>
+              <td>Realistic cents-per-point for your preferred uses</td>
+              <td>Lets you compare a points card fairly with cash-back alternatives.</td>
+            </tr>
+            <tr>
+              <td>Transfer Partners</td>
+              <td>Number, quality and transfer ratios</td>
+              <td>Impacts how flexible and resilient your points ecosystem is.</td>
+            </tr>
+            <tr>
+              <td>Expiry &amp; Policy Changes</td>
+              <td>Expiry rules, history of devaluations, transparency</td>
+              <td>Helps you judge long-term reliability of the program.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="small">
+        For live product-by-product comparisons, visit
+        <a href="https://choose.creditcard/?utm_source=point.creditcard&utm_medium=referral&utm_campaign=comparison_section">
+          Choose.Creditcard
+        </a>.
+      </p>
+    </section>
 
-    <ul class="list">
-      <li><strong>Statement credit:</strong> usually 0.5¢–1¢ per point.</li>
-      <li><strong>Gift cards:</strong> 0.8¢–1¢ typical.</li>
-      <li><strong>Travel portals:</strong> 1¢–1.5¢ depending on bonus multipliers.</li>
-      <li><strong>Transfer partners:</strong> 1.5¢–2.5¢+ with good redemptions.</li>
-    </ul>
+    <!-- Cluster links -->
+    <section class="section">
+      <h2>Explore Related Rewards Microsites</h2>
+      <div class="cluster-grid">
+        <a class="cluster-card" href="https://earn.creditcard/?utm_source=point.creditcard&utm_medium=referral&utm_campaign=cluster_earn">
+          <h3>Earn.Creditcard</h3>
+          <p>How different cards earn points, miles and cash-back.</p>
+        </a>
+        <a class="cluster-card" href="https://rewards.creditcard/?utm_source=point.creditcard&utm_medium=referral&utm_campaign=cluster_rewards">
+          <h3>Rewards.Creditcard</h3>
+          <p>Big-picture view of reward ecosystems and program types.</p>
+        </a>
+        <a class="cluster-card" href="https://loyalty.creditcard/?utm_source=point.creditcard&utm_medium=referral&utm_campaign=cluster_loyalty">
+          <h3>Loyalty.Creditcard</h3>
+          <p>How loyalty programs turn points into long-term engagement.</p>
+        </a>
+        <a class="cluster-card" href="https://travelrewards.creditcard/?utm_source=point.creditcard&utm_medium=referral&utm_campaign=cluster_travelrewards">
+          <h3>TravelRewards.Creditcard</h3>
+          <p>Using points strategically for flights and hotel stays.</p>
+        </a>
+        <a class="cluster-card" href="https://cashback.creditcard/?utm_source=point.creditcard&utm_medium=referral&utm_campaign=cluster_cashback">
+          <h3>Cashback.Creditcard</h3>
+          <p>Comparing flexible points to simple fixed cash-back.</p>
+        </a>
+      </div>
+    </section>
 
-    <p>Many people underestimate value by only using low-value redemption options.</p>
-  </section>
+    <!-- Collection section -->
+    <section class="section">
+      <h2>Part of The CreditCard Collection</h2>
+      <p class="small">
+        Point.Creditcard is one spoke in <strong>The CreditCard Collection</strong> — a network of focused microsites operated by ronarn AS. Each site isolates one aspect of card usage and explains it in neutral, factual language before sending you to independent comparison tools.
+      </p>
+      <p class="small">
+        We do not issue cards or sell points. Our role is to summarize public documentation, outline trade-offs and help you understand how different point systems behave over time.
+      </p>
+      <p class="small">
+        Nothing on this page is financial, legal or tax advice. Reward rules change, and point values can move with program decisions, so always confirm details directly with the issuer or program before making decisions.
+      </p>
 
-  <section class="section">
-    <h2>How Transfer Partners Change Everything</h2>
-    <p>Some cards allow points to be transferred to:</p>
+      <!-- REQUIRED HUB SNIPPET: Rewards hub -->
+      <div class="hub-link">
+        <a href="https://choose.creditcard/rewards/?utm_source=point.creditcard&utm_medium=referral&utm_campaign=minisite_to_hub"
+           class="text-sm text-slate-600 hover:text-slate-900">
+          Learn more at the Rewards hub
+        </a>
+      </div>
+    </section>
 
-    <ul class="list">
-      <li>Airline programs</li>
-      <li>Hotel programs</li>
-      <li>Specialty loyalty ecosystems</li>
-    </ul>
-
-    <p>This unlocks premium cabin flights, hotel upgrades and outsized redemptions — but introduces complexity and risk of devaluation.</p>
-  </section>
-
-  <section class="section">
-    <h2>Why Point Programs Devalue Over Time</h2>
-    <p>Devaluations happen because:</p>
-
-    <ul class="list">
-      <li>Programs add more members</li>
-      <li>Costs rise for issuers</li>
-      <li>Airlines adjust award charts</li>
-      <li>Partner contracts change</li>
-    </ul>
-
-    <p>Holding points instead of using them can reduce long-term value.</p>
-  </section>
-
-  <section class="section">
-    <h2>Redemption Strategies for Maximum Value</h2>
-    <p>To get the highest value from points:</p>
-
-    <ul class="list">
-      <li>Avoid gift cards (low return)</li>
-      <li>Use transfer partners when available</li>
-      <li>Target long-haul flights or premium cabins</li>
-      <li>Take advantage of bonus transfer promotions</li>
-    </ul>
-
-    <p>With the right strategy, points can outperform cashback cards.</p>
-  </section>
-
-  <!-- Table -->
-  <section id="compare" class="section">
-    <h2>Comparing Redemption Options</h2>
-
-    <div class="table-wrap">
-      <table class="table">
-        <thead>
-          <tr>
-            <th>Redemption Type</th>
-            <th>Typical Value</th>
-            <th>Notes</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Statement Credit</td>
-            <td>0.5¢–1¢</td>
-            <td>Lowest value, highest convenience</td>
-          </tr>
-          <tr>
-            <td>Travel Portal</td>
-            <td>1¢–1.5¢</td>
-            <td>Applies bank-specific multipliers</td>
-          </tr>
-          <tr>
-            <td>Transfer Partners</td>
-            <td>1.5¢–2.5¢+</td>
-            <td>Highest value with right bookings</td>
-          </tr>
-          <tr>
-            <td>Gift Cards</td>
-            <td>0.8¢–1¢</td>
-            <td>Better than statement credit, but still low</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-    <p class="small">
-      To compare which cards earn the most valuable points today, visit  
-      <a href="https://choose.creditcard/?utm_source=point.creditcard&utm_medium=referral&utm_campaign=comparison_section">
-        Choose.Creditcard
-      </a>.
-    </p>
-  </section>
-
-  <!-- Cluster Links -->
-  <section class="section">
-    <h2>Explore Related Reward Microsites</h2>
-
-    <div class="cluster-grid">
-
-      <a class="cluster-card" href="https://earn.creditcard/?utm_source=point.creditcard&utm_medium=referral&utm_campaign=cluster_earn">
-        <h3>Earn.Creditcard</h3>
-        <p>Earning structure & multipliers.</p>
+    <!-- Bottom CTA -->
+    <section class="section">
+      <h2>Ready to Choose a Points-Focused Card?</h2>
+      <p class="small">
+        Use Point.Creditcard to understand how points really work, then head to the main comparison hub to find cards whose earn structure, partners and redemption options match how you like to travel and spend.
+      </p>
+      <a class="cta" href="https://choose.creditcard/?utm_source=point.creditcard&utm_medium=referral&utm_campaign=bottom_cta">
+        Go to Choose.Creditcard
       </a>
+    </section>
+  </main>
 
-      <a class="cluster-card" href="https://rewards.creditcard/?utm_source=point.creditcard&utm_medium=referral&utm_campaign=cluster_rewards">
-        <h3>Rewards.Creditcard</h3>
-        <p>Full overview of reward systems.</p>
-      </a>
-
-      <a class="cluster-card" href="https://loyalty.creditcard/?utm_source=point.creditcard&utm_medium=referral&utm_campaign=cluster_loyalty">
-        <h3>Loyalty.Creditcard</h3>
-        <p>Loyalty tiers & status value.</p>
-      </a>
-
-      <a class="cluster-card" href="https://benefits.creditcard/?utm_source=point.creditcard&utm_medium=referral&utm_campaign=cluster_benefits">
-        <h3>Benefits.Creditcard</h3>
-        <p>All perks beyond basic rewards.</p>
-      </a>
-
-      <a class="cluster-card" href="https://rewarded.creditcard/?utm_source=point.creditcard&utm_medium=referral&utm_campaign=cluster_rewarded">
-        <h3>Rewarded.Creditcard</h3>
-        <p>Top earners & optimization.</p>
-      </a>
-
-    </div>
-  </section>
-
-  <!-- Collection Section -->
-  <section class="section">
-    <h2>Part of The CreditCard Collection</h2>
-    <p class="small">
-      Point.Creditcard is the valuation-focused spoke of <strong>The CreditCard Collection</strong>.
+  <footer class="mini-footer">
+    <p class="mini-footer-main">© 2025 The CreditCard Collection — ronarn AS</p>
+    <p class="mini-footer-contact">
+      Contact: <a href="mailto:support@cc.creditcard">support@cc.creditcard</a>
     </p>
-    <p class="small">
-      We provide independent analysis — with no issuer influence or sponsorship bias.
-    </p>
-    <p class="small">
-      For full card comparisons, visit  
-      <a href="https://choose.creditcard/?utm_source=point.creditcard&utm_medium=referral&utm_campaign=collection_section">Choose.Creditcard</a>.
-    </p>
-  </section>
-
-  <!-- Bottom CTA -->
-  <section class="section">
-    <h2>Find the Most Valuable Point Programs</h2>
-    <p class="small">See which cards deliver the highest point value for travel, transfers or flexible rewards.</p>
-
-    <a class="cta" href="https://choose.creditcard/?utm_source=point.creditcard&utm_medium=referral&utm_campaign=bottom_cta">
-      Compare point-earning cards
-    </a>
-  </section>
-
-</main>
-
-<footer class="mini-footer">
-  <p class="mini-footer-main">© 2025 The CreditCard Collection — ronarn AS</p>
-  <p class="mini-footer-contact">Contact: <a href="mailto:support@cc.creditcard">support@cc.creditcard</a></p>
-</footer>
-
+  </footer>
 </body>
 </html>
